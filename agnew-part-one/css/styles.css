@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #E8DED9;
+    width: 100vm;
+  }
+ 
+html, body{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;  
+    height: 100%;
+    }  
+
+.wrapper{
+    width: 100%;
+    }  
+
+/*Navigation class container*/
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+ 
+ /*text and image container*/   
+.container2  {
+    display: flex;
+    padding: 5px ;
+    width: 100%;
+    }
+
+.container2-image{
+    display: none;
+    }
+
+.container2-text {
+    width: 100%;
+    }   
+
+ /*Learn to Code*/   
+h1.learn {
+    font-weight: 400;
+    width: 100%;
+    margin-right: auto;
+    cursor: pointer;
+    margin-right: auto;
+    padding: 0px 10px;
+    }
+
+header {
+    display: flex;
+	flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 10%;
+    height: auto;
+    width: auto;
+    }
+  
+header > .nav-links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    /*line-height: 75px;
+    font-size: 30px;*/
+}
+
+a {
+    text-decoration: none;
+    color: #5b8c6f;
+    font-family: 'Roboto', sans-serif;
+    padding: 2vw;
+    margin-bottom: 10px;
+    }
+ 
+/*Code emphasis color*/
+    mark.code {
+    color:#61c386;
+    background: none;
+    }
+
+/*Nav Bar*/
+.nav-links {
+    color: #5b8c6f;
+    list-style: none;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+  }
+
+.nav-links li a{
+    padding: 12px;
+    border-radius: 10px;
+    color: #5b8c6f;
+    font-weight: 300;
+    padding: 0px 10px;
+    transition: all 0.3s ease 0s;
+    }
+  
+.nav-links li a:hover{
+    color: #61c386;
+}  
+
+/*Contact Us button*/
+.contact {
+    margin-left: 5px;
+    padding: 12px;
+    background-color: #61c386;
+    font-weight: 400;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    }
+
+.contact:hover {
+    color: #61c386;
+    background-color:  #f7e966;
+    }
+
+/*Learn More button*/
+.learnmore {
+    margin-left: 5px;
+    padding: 12px;
+    background-color: #61c386;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    /*display: block;*/
+    }
+                
+.learnmore:hover {
+    color: #61c386;
+    background-color: #f7e966;
+    }
+    
+h1.learning{
+    padding: 0px 10px;
+    font-weight: 600;
+    }
+
+p{
+    color: #5b8c6f;
+    font-weight: 300;
+    padding: 0px 10px;
+    }
+
+mark.learning {
+    color:#61c386;
+    background: none;
+    }
+  
+ /*desktop view*/
+@media only screen and (min-width: 768px){
+header {
+    padding: 30px 10%;
+    height: auto;
+    width: auto;
+    }
+
+header > .nav-links{
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-links {
+    padding: 0px 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-links li {
+  padding: 0px 10px;
+}
+   
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 16px;
+    } 
+
+.container2{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container2-image {
+    display:block;
+    width: 65%;
+    background-position: right 35% bottom 45%;
+    }  
+
+.container2-text {
+    flex: auto 1 1 ;
+    margin: 100px 10px;
+    width: 100%;
+    padding: 0;
+    }
+
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    }  
+    
+h1.learn {
+    margin-right: auto;
+    font-size: 16px;
+    margin-top: 0x;
+    padding: 9px 25px;
+    }
+      
+ .contact {
+    margin-left: 20px;
+    width: auto;
+    display: block;
+    }
+
+.learnmore{
+    width: auto;
+    }       
+}            
+ 
